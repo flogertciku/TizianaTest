@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: #245176;
+    width:100%;
+}
+
+header{    padding: 10px 10px 20px 20px;
+}
+header img {
+    width: 370px;
+}
+
+.flex{
+    display: flex;
+}
+.justify-space{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.font-link{
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.font-link a {
+    color: darkgoldenrod;
+
+}
+.font-link p{
+color: white;
+}
+
+.r-side{
+    flex-direction: column;
+}
+.buttons{
+    margin-top: 10px;
+    background-color: rgb(54, 54, 54);
+    padding: 15px 30px;
+    border-radius: 15px;
+    box-shadow: 0px 1px 1px 0px;
+}
+.buttons input{
+    padding: 10px 0px ;
+    text-align: center  ;
+    border: 1px solid gainsboro;
+    margin-right: 10px;
+}
+
+.buttons button{
+    background-color: rgb(3, 3, 61);
+    border: solid white 1px;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+nav ul{
+    list-style: none;
+    background-color: rgb(27, 80, 149);
+    padding: 10px 20px;
+    margin: 0px 15%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0px 0px;
+}
+nav ul li {
+    color: white;
+    font-size: large;
+}
+
+main ul{
+    text-align: center;
+
+}
+ .first-main ul li{
+    color: white;
+    text-decoration: underline;
+    list-style-type:none;
+
+}
+
+
+main{
+    width: 100%;
+}
+.first-main{
+    width: 100%;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+.first-main div{
+    width: 70%;
+}
+
+.first-main div ul li{
+    color: darkgoldenrod;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-style: italic;
+
+}
+.first-main div ul{
+    margin-top: 20px;
+}
+
+.first-main div ul li:last-child{
+    color: white;
+    font-style: normal;
+}
+
+.textP{
+    color: white;
+    text-align: center;
+}
+.first-main ul li{
+    margin-top: 10px;
+}
+.first-main ul li span{
+    color: goldenrod;
+    font-size: 12px;
+}
+
+.secondMain{
+    padding-top: 20px;
+    padding-bottom: 20px;
+background-color: azure;
+width: 100%;
+justify-content: space-around;
+}
+.secondMain div{
+    flex-direction: column;
+    border-top: 3px solid blue;
+    width: 40%;
+    padding-top: 20px
+}
+.secondMain divul {
+    list-style: none; 
+  }
+.secondMain div ul li::before {
+    content: "\2022"; 
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+     width: 1em; 
+    margin-left: -1em; 
+  }
+.secondMain div ul li{
+    color: rgb(79, 68, 141);
+}
+
+footer{
+    padding: 40px 40px 5px 40px;
+
+}
+
+footer div{
+    justify-content: space-around;
+}
+
+footer h6{
+    /* margin: 0% 40%; */
+    margin-top: 30px;
+    text-align: center;
+
+}

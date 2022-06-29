@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class=" flex justify-space align-center">
+            <img src="./img/python.png" alt="logo">
+            <div class="r-side flex justify-space align-center">
+                <div class="font-link flex justify-space align-center">
+                    <p>Text Size :</p>
+                    <a href="#">Normal</a>
+                    <span>|</span>
+                    <a href="#">Large</a>
+                </div>
+                <div class="buttons flex justify-space align-center ">
+                    <input type="text" placeholder="Search">
+                    <button>Go</button>
+
+                </div>
+            </div>
+
+        </header>
+        <nav>
+            <ul class="flex justify-space align-center">
+                <li>About</li>
+                <li>Downloads</li>
+                <li>Documentation</li>
+                <li>Community</li>
+                <li>News</li>
+                <li>Events</li>
+            </ul>
+        </nav>
+        <main>
+            <div class="first-main flex  align-center">
+                <ul>
+                    <li> <span> >> </span> Docs</li>
+                    <li>Audio</li>
+                    <li>Beginner</li>
+                    <li>Developer</li>
+                    <li>PEP</li>
+                    <li>Python</li>
+                    <li>FAQ</li>
+                </ul>
+                <div>
+                    <p class="textP flex justify-space align-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis natus dignissimos voluptate
+                        quaerat! Deleniti est facilis distinctio facere tempora ratione. Harum sint veritatis nobis.
+                        Optio soluta ipsum labore a laborum.
+                    </p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Quo voluptatem dolorum id? Doloribus.</li>
+                        <li>Harum atque consequuntur cum dolorem.</li>
+                        <li>Aspernatur saepe mollitia laudantium ex.</li>
+                        <li>Quam nemo officia quae architecto!</li>
+                        <li>Voluptate repellat similique temporibus voluptatibus.</li>
+                    </ul>
+                    <!-- div.flex>p+ul>li>a*6>{item nr $} -->
+
+
+                </div>
+            </div>
+            <!-- div.secondMain.flex.justify-space.align-center>div*2>(h5>{Getting Started})+(p>lorem20)+ul>li*3>lorem4 -->
+
+            <div class="secondMain  justify-space align-center">
+
+                <button onclick="hideClass('.secondMain')">remove secondMAin</button>
+                <div class="flex justify-space align-center">
+                    <h5>Getting Started</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque libero at soluta fuga modi ea
+                        aperiam quia veritatis eligendi iure.</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit.</li>
+                        <li>Natus, similique. Cumque, rerum!</li>
+                        <li>Numquam deserunt veniam ipsum.</li>
+                    </ul>
+                </div>
+                <div class="flex  align-center">
+                    <h5>Getting Started</h5>
+                    <p>Ullam a dolores natus facilis aliquam iusto delectus deserunt! Cupiditate dolorem quae sunt
+                        magnam tempora debitis</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit.</li>
+                        <li>Eaque non architecto dolorem.</li>
+                        <li>Quidem reprehenderit cum voluptates.</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="flex  align-center">
+                <p>Lorem, ipsum dolor.</p>
+            <p>Perspiciatis, vero a?</p>
+            <p>Deleniti, assumenda qui?</p>
+            </div>
+            <h6>will be removed</h6>
+
+            <p id="test123">Lorem ipsum dolor sit amet.</p>
+            <button onclick="hide('h6')">remove</button>
+           
+
+            
+
+
+            
+        </footer>
+
+
+    </div>
+    <script src="script.js" >
+    </script>
+
+</body>
+
+</html>
